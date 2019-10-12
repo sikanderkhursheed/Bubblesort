@@ -1,0 +1,29 @@
+﻿Build started 10/15/2014 10:21:14 AM.
+     1>Project "c:\Users\1312154\documents\visual studio 2010\Projects\Bubblesort\Bubblesort\Bubblesort.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Bubblesort.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Bubblesort.cpp
+         Bubblesort.cpp
+     1>c:\users\1312154\documents\visual studio 2010\projects\bubblesort\bubblesort\bubblesort.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\1312154\documents\visual studio 2010\projects\bubblesort\bubblesort\bubblesort.cpp(14): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\1312154\documents\visual studio 2010\projects\bubblesort\bubblesort\bubblesort.cpp(22): warning C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getche. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(129) : see declaration of 'getche'
+     1>c:\users\1312154\documents\visual studio 2010\projects\bubblesort\bubblesort\bubblesort.cpp(26): warning C4101: 'l' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\1312154\documents\visual studio 2010\projects\Bubblesort\Debug\Bubblesort.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Bubblesort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\1312154\documents\visual studio 2010\projects\Bubblesort\Debug\Bubblesort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\1312154\documents\visual studio 2010\projects\Bubblesort\Debug\Bubblesort.lib" /MACHINE:X86 Debug\Bubblesort.obj
+         Debug\stdafx.obj
+     1>Bubblesort.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Bubblesort.vcxproj -> c:\users\1312154\documents\visual studio 2010\projects\Bubblesort\Debug\Bubblesort.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\1312154\documents\visual studio 2010\projects\Bubblesort\Debug\Bubblesort.exe;#1" /manifest Debug\Bubblesort.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Bubblesort.unsuccessfulbuild".
+         Touching "Debug\Bubblesort.lastbuildstate".
+     1>Done Building Project "c:\Users\1312154\documents\visual studio 2010\Projects\Bubblesort\Bubblesort\Bubblesort.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.51
